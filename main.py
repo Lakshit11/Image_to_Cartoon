@@ -20,5 +20,8 @@ cartoon = cv2.bitwise_and(color, color, mask = edges)
 # displaying image
 cv2.imshow("Cartoon", cartoon)
 
+# Holding the window to view the result
 cv2.waitKey(0)
+
+# destroying all windows
 cv2.destroyAllWindows()
